@@ -19,3 +19,21 @@ Free for noncommercial use.
 > ```bash
 > xattr -cr "/Applications/TouchBar-Customizer.app"
 > ```
+
+## NasConnector
+
+```bash
+brew tap retrocompxyz/tap
+brew install --cask nas-connector
+```
+
+[NasConnector](https://github.com/retrocompxyz/nas-connector) — a menu bar app
+that automatically mounts SMB/NAS shares at login and after the network
+reconnects (macOS 13+). Free for noncommercial use.
+
+> NasConnector is not notarized by Apple. On first launch, right-click the app in
+> `/Applications` and choose **Open**, or run:
+>
+> ```bash
+> xattr -dr com.apple.quarantine "/Applications/NasConnector.app"
+> ```
